@@ -51,18 +51,22 @@
 		require_once DIR_SYS . '/markdown.php';
 		$str = file_get_contents($pagename);
 		$my_html = Markdown($str);
-
-		require_once DIR_VIEW . '/mimino/_header.php';
+		
+		$pageid = 'page6';
+		require_once DIR_VIEW . '/allpaws/_header.php';
 		
 		echo <<<HTML
-		<div class="major-holder">
-			<div class="major-area">
-				<div class="major-frame">
-					<div id="main">
+		<section id="content">
+			<div id="indent-1">
+				<div class="privacy">
+					<div class="wrapper">
 						{$my_html}
 					</div>
+				</div>
+			</div>
+		</section> 
 HTML;
-		require_once DIR_VIEW . '/mimino/_footer.php';
+		require_once DIR_VIEW . '/allpaws/_footer.php';
 		exit();
 	}
 	else if(file_exists($scriptname))

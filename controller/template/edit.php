@@ -4,7 +4,7 @@
 	
 	if (isset($_POST['action']) && $_POST['action'] == 'save') 
 	{ 
-		$fh = fopen(DIR_PAGE . '/inc/'. $filename, 'w') or die("Error: Can't open file");
+		$fh = fopen(DIR_PAGE . '/inc/'. $Input->post('filename'), 'w') or die("Error: Can't open file");
 		$str = $Input->post('content');
 		fwrite($fh, $str);
 		fclose($fh);
@@ -72,7 +72,7 @@
 						<legend><h2>Edit <?= set_default($template->name, "Template") ?> <small><?= set_default($template->page) ?></small></h2></legend>
 						<p><?= set_default($template->description) ?></p>
 						<div class="clearfix">		
-							<textarea rows="8" cols="40" id="content">
+							<textarea rows="8" cols="40" id="content" name="content">
 								<?php include_once DIR_PAGE . '/inc/' . $filename; ?>
 							</textarea>
 						</div>	
