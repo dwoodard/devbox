@@ -286,7 +286,7 @@ var Site = {
 	        });
 			
 			var changeMailTo = function(){
-				var mArr = ["@","smashup","luca",".it"];
+				var mArr = ["@","neverslee","patrick",".ps"];
 				$("#email").attr("href","mailto:"+mArr[2]+mArr[0]+mArr[1]+mArr[3]);
 			}
 					
