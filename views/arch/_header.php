@@ -10,9 +10,9 @@
 			'assets/css/reset',
 			'assets/css/grid',
 			'assets/css/screen',
-			'assets/css/prettyPhoto',
+			'assets/css/colorbox',
 			'assets/fonts/franchise',
-		), FALSE, FALSE, FALSE);
+		), FALSE, FALSE, TRUE);
 
 		echo HTML::script(array
 		(
@@ -26,13 +26,13 @@
 			'assets/js/superfish',
 			'assets/js/jquery.easing.1.3',
 			'assets/js/backgroundPosition',
-			'assets/js/jquery.prettyPhoto',
+			'assets/js/jquery.colorbox',
 			'assets/js/hover-image',
 			'assets/js/contact-form',
 			'assets/js/pages',
 			'assets/js/common',
 			'assets/js/main',
-		), FALSE, FALSE);
+		), FALSE, TRUE);
 	?>
 	
 	<!--[if lt IE 9]>

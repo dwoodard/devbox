@@ -1,3 +1,7 @@
+div.pp_content {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
 div.light_rounded .pp_top .pp_left {
 	background: url(/assets/images/insomniac/prettyPhoto/light_rounded/sprite.png) -88px -53px no-repeat;
 }

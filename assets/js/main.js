@@ -20,14 +20,16 @@ $(window).load(function(){
 
 $(document).ready(function() {
 	
+	$(".gallery").colorbox({rel:'gallery'});
 	
 	// for lightbox
-	if ($("a[rel^='prettyPhoto']").length) {
-			$(document).ready(function() {
-				// prettyPhoto
-				$("a[rel^='prettyPhoto']").prettyPhoto({theme:'dark_square'});
-			});
-	}
+	// if ($("a[rel^='prettyPhoto']").length) {
+	// 			$(document).ready(function() {
+	// 				// prettyPhoto
+	// 				$("a[rel^='prettyPhoto']").prettyPhoto({theme:'facebook'});
+	// 			});
+	// 	}
+	
 	//animate menu
 	$('#menu .ul_1 li').hover(function(){
 			$(this).find('> a').stop().animate({backgroundPosition:'-64px -120px'})

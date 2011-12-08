@@ -147,7 +147,7 @@ jQuery.fn.sendmail = function() {
 jQuery.fn.open_colorbox = function() {
 	return this.each(function() {
 		$(".lightbox").colorbox({
-			innerHeight		: 400, 
+			innerHeight		: 480, 
 			scrolling		: false,
 			preloading		: true, 
 			onComplete		: function() {
