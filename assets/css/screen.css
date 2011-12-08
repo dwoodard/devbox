@@ -34,6 +34,7 @@ body, html {
 
 body {
 	background: url(/assets/images/insomniac/_background_v1.jpg) right top no-repeat #000;
+	background-position: -300px -400px;
 	background-attachment: fixed;
 	border: 0;
 	font: 14px/24px FranchiseRegular, “Century Gothic”, Helvetica, sans-serif;
