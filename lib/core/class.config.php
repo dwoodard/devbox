@@ -14,7 +14,7 @@
         // Add your server hostnames to the appropriate arrays. ($_SERVER['HTTP_HOST'])
         // Each array item should be a regular expression. This gives you the option to detect a whole range
         // of server names if needed. Otherwise, you can simply detect a single server like '/^servername\.com$/'
-        private $productionServers = array('/^example\.com$/','/www.example\.com$/');
+        private $productionServers = array('/^ins0mniac\.com$/','/www.ins0mniac\.com$/');
         private $stagingServers    = array('/^stage.neveranullmoment\.com$/');
         private $localServers      = array('/^devbox\.dev$/');
 
@@ -89,7 +89,7 @@
         private function everywhere()
         {
             // Store sesions in the database?
-            $this->useDBSessions = true;
+            $this->useDBSessions = false;
 
             // Settings for the Auth class
             $this->authDomain = $_SERVER['HTTP_HOST'];
@@ -115,11 +115,11 @@
 
             $this->dbReadHost      = 'localhost';
             $this->dbWriteHost     = 'localhost';
-            $this->dbName          = '';
-            $this->dbReadUsername  = '';
-            $this->dbWriteUsername = '';
-            $this->dbReadPassword  = '';
-            $this->dbWritePassword = '';
+            $this->dbName          = 'ins0mniac_simpledb';
+            $this->dbReadUsername  = 'ins0mniac_admin';
+            $this->dbWriteUsername = 'ins0mniac_admin';
+            $this->dbReadPassword  = 'j-5-rKNvXRD';
+            $this->dbWritePassword = 'j-5-rKNvXRD';
             $this->dbOnError       = 'die';
             $this->dbEmailOnError  = false;
         }
