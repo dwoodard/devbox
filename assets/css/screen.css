@@ -57,6 +57,10 @@ a {
 #page2 #content a:hover, #page6 #content a:hover {
 	text-decoration: underline;
 }	
+
+.trebuchet {
+	font-family: Trebuchet;
+}
 /* ========================= Global properties END =============================== */
 
 
@@ -288,7 +292,7 @@ nav {
 	left: 16px;
 }
 
-	#banners li a {
+	#banners li a, #banners li {
 		display: block;
 		overflow: hidden;
 		line-height: 0.833em;
@@ -298,21 +302,21 @@ nav {
 		color: #fff;
 	}
 	
-	#banners li#ban-1 a {
+	#banners li#ban-1 a, #banners li#ban-1 {
 		background: #57bfb5;
 		width: 217px;
 		height: 68px;
 		padding: 40px 42px 12px 48px;
 	}
 	
-	#banners li#ban-2 a {
+	#banners li#ban-2 a, #banners li#ban-2 {
 		background: #9bd5e0;
 		width: 217px;
 		height: 75px;
 		padding: 33px 42px 12px 48px;
 	}
 	
-	#banners li#ban-3 a {
+	#banners li#ban-3 a, #banners li#ban-3 {
 		background: #29736b;
 		width: 217px;
 		height: 78px;
@@ -325,12 +329,12 @@ nav {
 
 #head-list {
 	position: absolute;
-	top: 164px;
-	left: 356px;
+	top: 144px;
+	left: 336px;
+	width: 200px;
 }
 
 	#head-list li {
-		background: #fff url(/assets/images/allpaws/head-marker.gif) no-repeat 0% 4px;
 		padding: 0 0 14px 23px;
 		line-height: 1.2em;
 		font-size: 1.5em;
@@ -403,7 +407,9 @@ h2, nav ul li, .info-box b {
 #head-list li, .info-box strong { 
 	font-family: GeosansLightRegular;
 }
-#banners li#ban-1 a, #banners li#ban-2 a, #banners li#ban-3 a { 
+#banners li#ban-1 a, #banners li#ban-1, 
+#banners li#ban-2 a, #banners li#ban-2,
+#banners li#ban-3 a, #banners li#ban-3 { 
 	font-family: GeosansLightRegular;
 	/*textShadow: '1px 1px #7aad05'*/ 
 }
@@ -431,7 +437,6 @@ header h1 {
 h2 {
 	padding: 0 0 18px 0;
 	line-height: 1.2em;
-	font-family: Arial, Helvetica, sans-serif;
 	font-size: 2.5em;
 	font-weight: 500;
 	color: #2c2c2c;
@@ -726,20 +731,19 @@ h6 {
 		}
 
 .info-box1 {
-	background: url(/assets/images/allpaws/animal.jpg) no-repeat 0% 100%;
 	width: 100%;
 }
 
 	.info-box1 .inner {
-		padding: 5px 0 82px 155px;
+		padding: 5px 0 82px 35px;
 	}
 
 	.info-box1 strong {
 		display: block;
-		line-height: 1.385em;
-		font-size: 1.083em;
-		font-weight: normal;
-		color: #869f86;
+	    font-size: 1.083em;
+	    font-weight: 400;
+	    height: 138px;
+	    line-height: 0.833em;
 	}
 	
 		.info-box1 strong a {

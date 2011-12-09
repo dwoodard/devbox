@@ -18,7 +18,7 @@
 		             <div class="clear"></div>
 		           </article>
 		           <article class="col-2">
-		             <?php include_once DIR_PAGE . '/inc/what_we_offer.html'; ?>
+		             <?php include_once DIR_PAGE . '/inc/testimonial_1.html'; ?>
 		             
 		             <div class="clear"></div>
 		           </article>

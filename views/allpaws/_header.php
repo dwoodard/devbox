@@ -60,21 +60,20 @@
 		      <div id="main-bg-top">
 		        <div id="main-bg-bot<?= $str = ($pageid == 'page6') ? 1 : NULL; ?>">
 		          <div id="main">
-		            <!-- header -->
-		            <header>
-		              <h1><a href="/"><span>PetCenter</span></a></h1>
-		              <nav>
-		                <ul>
-		                  <li class="act"><a href="/">main</a></li>
-		                  <li><a href="/about/">about us</a></li>
-		                  <li><a href="/services/">services</a></li>
-		                  <li><a href="/gallery/">gallery</a></li>
-		                  <li><a href="/contact/">contact us</a></li>
-		                </ul>
-		              </nav>
-		              
-		              	<?php include_once(DIR_PAGE . '/inc/homepage_banners.html') ?>
-		
-						<?php include_once(DIR_PAGE . '/inc/header_list.html') ?>
-						
-		            </header>
+					
+						<!-- header -->
+						<header>
+							<h1><a href="/"><span>PetCenter</span></a></h1>
+							<nav>
+								<ul>
+									<li class="act"><a href="/">main</a></li>
+									<li><a href="/about/">about us</a></li>
+									<li><a href="/services/">services</a></li>
+									<li><a href="/gallery/">gallery</a></li>
+									<li><a href="/contact/">contact us</a></li>
+								</ul>
+							</nav>
+							<?php include_once(DIR_PAGE . '/inc/homepage_banners.html') ?>
+
+							<?php include_once(DIR_PAGE . '/inc/header_list.html') ?>
+						</header>
