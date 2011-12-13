@@ -22,29 +22,25 @@
   <div class="container">
     <div class="featured">
         <img src="/assets/images/klix/slide4.jpg" title="Your Product title" alt="Slide"/>
-        <div class="promo">
-            <h1>Introducing the all new micro site and squeeze page from <strong>Klix</strong></h1>
-            <p class="big">Simple design, easy to customize and above-the-fold layout. With big promo area and micro site features, the template is best suited for instant promotion and marketing.</p>
-            <p>With every purchase, you will receive free adwork credits worth $50, and one month of exposure on Klix home page, absolutely FREE*</p>
-            <p><a href="#" class="btn">Purchase Now</a> <a href="#" class="btn yellow">Take the tour</a></p>
-            <p><small>Grab a <a href="#"><strong>Trial Download</strong></a> or <a href="#"><strong>Contact us</strong></a> to know more about the offer. <br/>*The offer is valid only upto the end of December.  Terms and Conditions apply.</small></p>
+		<div class="promo">
+            <?php include_once DIR_PAGE . '/inc/homepage_headline.html'; ?>
         </div><!-- .promo -->
     </div><!-- .featured -->
     <div class="content">
         <div class="wrap" >
-            <div class="one_fourth">
+            <div class="one_fourth article">
                 <img class="ico_left" src="/assets/images/klix/icons/star_32.png" title="Clean Design" alt="icon" /><h3>Multi Purpose</h3>
                 <p>The template can be used as a standalone click-through landing page or a content oriented micro site.</p>
             </div><!-- .one_fourth -->
-            <div class="one_fourth">
+            <div class="one_fourth article">
                 <img class="ico_left" src="/assets/images/klix/icons/screen_off_32.png" title="Above the fold" alt="icon" /><h3>Above the Fold</h3>
                 <p>The main call-to-action and product offer resides above the fold, thereby giving better exposure to the offer. </p>
             </div><!-- .one_fourth -->
-            <div class="one_fourth">
+            <div class="one_fourth article">
                 <img class="ico_left" src="/assets/images/klix/icons/tools_32.png" title="Easy to customize" alt="icon" /><h3>Easy to customize</h3>
                 <p>The markup is straight-forward. You just need to fill in the dummy content with your own custom content.</p>
             </div><!-- .one_fourth -->
-            <div class="one_fourth last">
+            <div class="one_fourth last article">
                 <img class="ico_left" src="/assets/images/klix/icons/web_layout_32.png" title="Standard Layout" alt="icon" /><h3>Flexible Grids</h3>
                 <p>The grids shown on this page can be changed to different combination. Two columns, three columns, full width etc.</p>
             </div><!-- .one_fourth last -->
@@ -64,7 +60,7 @@
                     <li><a data-rel="prettyPhoto[gallery1]" href="/assets/images/klix/products/full_8.jpg"  title="Product Title"><img src="/assets/images/klix/products/thumb_8.jpg" alt="Product image"/></a></li>
                 </ul>
             </div><!-- .half -->
-            <div class="one_fourth">
+            <div class="one_fourth article">
                 <h4>Our Services</h4>
                 <ul class="checklist">
                     <li>Marketing and Promotion</li>
