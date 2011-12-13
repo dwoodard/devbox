@@ -6,6 +6,35 @@
 	
 	require_once realpath(dirname(__FILE__)) . '/bootstrap.php'; 
 	
+	
+	// KLUDGE: variables not initializing in bootstrap for some reason.  
+	
+	// Load our config settings
+	$Config = Config::getConfig();
+
+	// Store session info in the database?
+	if(Config::get('useDBSessions') === true)
+		DBSession::register();
+
+	// Initialize our session
+	session_name(Config::get('sessionName'));
+	session_start();
+
+	// Initialize current user
+	$Auth = Auth::getAuth();
+
+	// If you need to bootstrap a first user into the database, you can run this line once
+	// Auth::createNewUser('username', 'password');
+
+	// Object for tracking and displaying error messages
+	$Error = Error::getError();
+	
+	// Object for fetching $_POST, $_GET and $_REQUEST array
+	$Input = new Input();
+	
+	// Object for fetching URI
+	$requestURI = explode('/', $_SERVER['REQUEST_URI']);
+	
 	$ru = &$_SERVER['REQUEST_URI'];
 	$qmp = strpos($ru, '?');
 	list($path, $params) = $qmp === FALSE
