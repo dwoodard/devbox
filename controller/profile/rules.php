@@ -13,7 +13,7 @@
 			$q->required = set_default($_POST['required'], 0);
 			$q->update();
 
-			redirect('/survey/preview/' . $_POST['question_id']);
+			redirect('/profile/preview/' . $_POST['question_id']);
 		}
     }
 	
@@ -45,7 +45,7 @@
 								<div class="page-header">
 									<h4>Rules &amp; Options</h4>
 								</div>
-								<form action="/survey/rules/" method="post" class="form-stacked" style="margin-left: -20px;"> 
+								<form action="/profile/rules/" method="post" class="form-stacked" style="margin-left: -20px;"> 
 									<input type="hidden" name="question_id" value="<?= set_default($requestURI[3]) ?>">
 									<input type="hidden" name="action" value="true">
 									

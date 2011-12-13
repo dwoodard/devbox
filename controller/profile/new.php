@@ -40,7 +40,7 @@
 				}
 			}
 			
-			redirect('/survey/rules/' . $q_id);
+			redirect('/profile/rules/' . $q_id);
 		}
     }
     
@@ -71,7 +71,7 @@
 								<div class="page-header">
 									<h4>Start with your first question</h4>
 								</div>
-								<form action="/survey/new/" method="post" class="form-stacked" style="margin-left: -20px;"> 
+								<form action="/profile/new/" method="post" class="form-stacked" style="margin-left: -20px;"> 
 									<div class="clearfix">
 										<label for="matrix">Choose a question type:</label> 
 										<select id="matrix" name="matrix_id">
