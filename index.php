@@ -16,10 +16,6 @@
 	if(Config::get('useDBSessions') === true)
 		DBSession::register();
 
-	// Initialize our session
-	session_name(Config::get('sessionName'));
-	session_start();
-
 	// Initialize current user
 	$Auth = Auth::getAuth();
 
