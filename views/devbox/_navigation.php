@@ -1,7 +1,7 @@
 <div class="topbar" data-dropdown="dropdown">
 	<div class="topbar-inner">
 		<div class="container">
-			<a href="/dashboard/" class="brand">_devbox</a>
+			<a href="/dashboard/" class="brand">My Nexersys</a>
 			<ul class="nav">
 				<li class=""><a href="#overview">Rule Numero Uno</a></li>
 				<li class=""><a href="/dashboard/privacy/">Privacy Policy</a></li>
@@ -11,7 +11,7 @@
 					<ul class="dropdown-menu">
 						<li><a href="#">Static Web Pages</a></li>
 						<li><a href="#">Dynamic Web Pages</a></li>
-						<li><a href="#">Textile and Markdown</a></li>
+						<li><a href="#">Markdown Web Pages</a></li>
 						<li><a href="#">Custom Controllers</a></li>
 						<li class="divider"></li>
 						<li class=""><a href="/dashboard/readme/">Read Me</a></li>
