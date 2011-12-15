@@ -49,6 +49,7 @@
 					<h3>New profile</h3></a>
 					<p>New users can start here to create a new profile.</p>
 					
+					<a href="/backup/">
 					<img alt="" src="/assets/images/origami/save.png" class="thumbnail floatleft" style="margin: 10px 5px 0; width: 55px;">
 					<h3>Easy Backups</h3>
 					<p>Backup your profile with <a href="http://www.dropbox.com" target="_blank">Dropbox</a> support or use a thumb drive.</p>
