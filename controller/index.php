@@ -1,6 +1,7 @@
 <?php defined('LIBRARY') or die('No direct script access allowed');
-
-	require_once DIR_VIEW . '/klix/_header.php'; 
+	
+	redirect('/dashboard');
+	// require_once DIR_VIEW . '/klix/_header.php'; 
 ?>
 
 <div class="header">

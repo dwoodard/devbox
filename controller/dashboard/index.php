@@ -29,7 +29,7 @@
 			</div>
 			<div class="row">
 				<div class="span-one-third">
-					<a href="/template/list/">
+					<!-- <a href="/template/list/">
 					<img alt="" src="/assets/images/origami/file.png" class="thumbnail floatleft" style="margin: 10px 10px 0 0; width: 55px;">
 					<h3>Easy Templates</h3></a>
 					<p>Easily add pages using your default template or start a new template.</p>
@@ -42,7 +42,7 @@
 					<a href="/gallery/">
 					<img alt="" src="/assets/images/milky/27.png" class="thumbnail floatleft" style="margin: 10px 8px 0;">
 					<h3>Easy Gallery</h3></a>
-					<p>Upload your picture gallery. Crop, resize and apply popular filters.</p>
+					<p>Upload your picture gallery. Crop, resize and apply popular filters.</p> -->
 
 					<a href="/profile/new/">
 					<img alt="" src="/assets/images/origami/address_book.png" class="thumbnail floatleft" style="margin: 10px 5px 0; width: 55px;">

@@ -108,6 +108,33 @@ var devbox = {
 				$(el).css('visibility', 'visible');
 	        });
 			
+			$( "#age_slider" ).slider({
+				value:21,
+				min: 21,
+				max: 75,
+				step: 1,
+				slide: function( event, ui ) {
+					$( "#age" ).val(ui.value);
+				}
+			});
+			$( "#weight_slider" ).slider({
+				value: 150,
+				min: 0,
+				max: 450,
+				step: 5,
+				slide: function( event, ui ) {
+					$( "#weight" ).val(ui.value);
+				}
+			});
+			$( "#age" ).val($( "#age_slider" ).slider( "value" ));
+			$( "#weight" ).val($( "#weight_slider" ).slider( "value" ));
+			
+			$('.add-profile').click(function(e) {
+				$('input#action').val('add');
+				$('form#profile').submit();
+				
+			});
+			
 			$('#pick_files').plupload_button('pick_files');
 			
 			// Picmeleo Manager

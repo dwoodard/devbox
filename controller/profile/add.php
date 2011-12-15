@@ -10,15 +10,51 @@
 		
 		if($Error->ok())
 		{
-			$_SESSION['profile'] = json_encode($_POST);			
-			redirect('/profile/' . $_POST['action'] . '/');
+			// User array exists, stack new user
+			if (isset($_SESSION['user'])) 
+			{
+				foreach ($_SESSION['user'] as $k => $v) 
+				{
+					$obj = json_decode($v);
+					if ($Input->post('name') == $obj->name) 
+					{
+						$Error->add('Name', 'Duplicate user name found.  Please use unique names for user profiles.');
+					}
+				}
+				
+				if ($Error->ok()) 
+				{
+					$stack = json_encode($_POST);
+					array_push($_SESSION['user'], $stack);
+				}
+			}
+			else // User array does not exists, create new session array
+			{
+				$_SESSION['user'] = array(json_encode($_POST));
+			}
+			
+			if ($_POST['action'] != 'add') redirect('/profile/' . $_POST['action'] . '/');
 		}
     }
+
+	if (isset($_SESSION['user'])) 
+	{
+		if (count($_SESSION['user']) > 3) 
+		{
+			$Error->add('You can only have a total of 5 user profiles', 'User');
+			$user_count = count($_SESSION['user']);
+		}
+		else 
+		{
+			$user_count = count($_SESSION['user']) + 2;
+		}
+	}
+	else 
+	{
+		$user_count = 2;
+	}
     
-	unset($_SESSION['profile']);
-	unset($_SESSION['user']);
-	
-	$page_title = '&raquo; New Profile';
+	$page_title = '&raquo; Add Additional User to Profile';
 	require_once DIR_VIEW . '/devbox/_header.php'; 
 	require_once DIR_VIEW . '/devbox/_navigation.php'; 
 ?>
@@ -41,25 +77,26 @@
 					</div>
 				<?php endif ?>
 			
-				<form action="/profile/new/" method="post" enctype="multipart/form-data" accept-charset="utf-8" class="form-stacked" id="profile">
+				<form action="/profile/add/" method="post" enctype="multipart/form-data" accept-charset="utf-8" class="form-stacked" id="profile">
 					<input type="hidden" name="action" value="preview" id="action">
-					
+				
 					<fieldset>
-						<legend><h2>Create Your Profile</h2></legend>
+						<legend><h2>Add Additional User to Profile <small>(User <?= $user_count ?> of 5)</h2></legend>
+							
 						<div class="well">	
 							<div class="clearfix">
-								<label>Name</label>
+								<label>User Name</label>
 								<div class="input">
 									<input type="text" name="name" class="xxlarge validate" rel="required">
 									<span class="help-block">
-										Please include your full name.
+										Please include full name of new user.
 									</span>
 								</div>
 							</div>
 							
 							<div class="clearfix">	
 								<label>
-									What is your age?
+									What is the new user's age?
 									<input type="text" id="age" name="age" style="background-color: transparent; border: 0; box-shadow: none; color:#f6931f; font-weight:bold;" />
 								</label>
 								<div class="input" style="width: 540px;">
@@ -69,7 +106,7 @@
 							
 							<div class="clearfix">		
 								<label>
-									How much do you weigh?
+									How much does new user weigh?
 									<input type="text" id="weight" name="weight" style="background-color: transparent; border: 0; box-shadow: none; color:#f6931f; font-weight:bold;" />
 								</label>
 								<div class="input" style="width: 540px;">
@@ -103,7 +140,7 @@
 					
 					<fieldset>
 						<div class="well">
-							<legend>Choose your gender</legend>
+							<legend>Choose gender for new user</legend>
 							<div class="clearfix">													
 								<div class="floatleft" style="margin: 20px;">
 									<label for="male">
@@ -126,7 +163,7 @@
 					
 					<fieldset>
 						<div class="well">
-							<legend>Choose your stance</legend>
+							<legend>Choose stance for new user</legend>
 							<div class="clearfix">													
 								<div class="floatleft" style="margin: 20px;">
 									<label for="orthodox">
@@ -148,7 +185,7 @@
 					</fieldset>
 					
 					<div class="actions">
-						<input type="button" value="Add another user" class="btn primary add-profile"> 
+						<input type="button" value="Add another user" class="btn primary add-profile">
 						<input type="submit" value="Finish &amp; Preview" class="btn success"> 
 					</div>
 				</form>

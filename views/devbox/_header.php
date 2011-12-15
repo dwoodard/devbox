@@ -28,7 +28,7 @@
 		echo HTML::script(array
 		(
 		    'assets/js/jquery-1.6.2.min',
-			'assets/js/jquery-ui-1.8.10.custom.min',
+			'assets/js/jquery-ui-1.7.2.all.min',
 			'assets/js/jquery.bt',
 			'assets/js/jquery.colorbox', 
 			'assets/js/jquery.form',

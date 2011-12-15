@@ -20,7 +20,7 @@ div.wrapper {
 .link {
 	cursor: pointer;
 }
-.link:hover {
+a.link:hover {
 	background-color: lightyellow;
 }
 .link a {
