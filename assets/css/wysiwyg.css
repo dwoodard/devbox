@@ -2,6 +2,7 @@
 
 /*---------- Start General setting ---------------*/
 html, body {
+	width: 98%;
 	height: 100%;
 	min-height: 100%;
 	color: #505256;
@@ -16,8 +17,8 @@ body {
 
 a {
 	outline: none !important;
-	color: #000000 !important;
-	text-decoration:none !important;
+	color: #000000;
+	text-decoration: none;
 }
 
 img {
@@ -27,7 +28,7 @@ img {
 p {
 	padding: 0 0 18px 0;
 	line-height: 1.385em;
-	font-size: 1.083em;
+	font-size: 14px;
 	color: #8e8e8e;
 	margin:0 !important;
 	padding:0 !important;
@@ -36,9 +37,9 @@ p {
 
 h2 {
 	padding: 0 0 18px 0;
-	line-height: 1.2em;
-	font-size: 30px;
-	font-weight: 500;
+	line-height: 1em;
+	font-size: 36px;
+	font-weight: 800;
 	color: #2c2c2c;
 }
 
@@ -75,7 +76,7 @@ h2 {
 h5 {
 	padding: 0 0 18px 0;
 	line-height: 1.385em;
-	font-size: 13px;
+	font-size: 14px;
 	color: #000;
 }
 
@@ -93,6 +94,25 @@ h6 {
 	color: #4b4b4b;
 }
 
+.link {
+	background: #000;
+	float: left;
+	height: 21px;
+	padding: 0 7px 0 7px !important;
+	overflow: hidden;
+	line-height: 20px;
+	font-size: 14px;
+	font-weight: bold;
+	text-decoration: none;
+	color: #fff;
+}
+	
+	.link:hover {
+		color: #ffffff !important;
+		background: #57bfb5;
+		text-decoration: none !important;
+	}
+	
 .list {
 	padding: 0 0 15px 2px;
 	overflow: hidden;
@@ -102,14 +122,17 @@ h6 {
 		background: url(/assets/images/allpaws/marker.gif) no-repeat 0% 9px;
 		padding: 0 0 0 13px;
 		line-height: 1.538em;
-		font-size: 1.083em;
-		color: #319ea8;
+		font-size: 14px;
+		color: #000000;
 	}
 	
 		.list li a {
-			text-decoration: underline;
-			color: #319ea8;
+			text-decoration: none;
+			color: #57BFB5;
 		}	
+		.list li a:hover {
+			text-decoration: underline;
+		}
 
 .list-1 {
 	padding: 0 0 34px 0;
@@ -120,7 +143,7 @@ h6 {
 		background: url(/assets/images/allpaws/marker-1.gif) no-repeat 0% 11px;
 		padding: 0 0 0 14px;
 		line-height: 2em;
-		font-size: 1.083em;
+		font-size: 14px;
 		color: #89c206;
 	}
 	
@@ -136,7 +159,7 @@ h6 {
 		background: url(/assets/images/allpaws/marker-2.gif) no-repeat 0% 10px;
 		padding: 0 0 0 13px;
 		line-height: 1.846em;
-		font-size: 1.083em;
+		font-size: 14px;
 		font-weight: bold;
 		color: #454b44;
 	}
@@ -173,7 +196,7 @@ h6 {
 			display: block;
 			padding: 5px 0 0 0;
 			line-height: 1.385em;
-			font-size: 1.083em;
+			font-size: 14px;
 			font-weight: normal;
 			color: #4b4b4b;
 		}
@@ -185,7 +208,7 @@ h6 {
 		.list-3 li p {
 			padding: 0 0 13px 0 !important;
 			line-height: 1.385em !important;
-			font-size: 1.083em !important;
+			font-size: 14px !important;
 			color: #8e8e8e !important;
 		}
 
@@ -197,7 +220,7 @@ h6 {
 		background: url(/assets/images/allpaws/marker-3.gif) no-repeat 0% 10px;
 		padding: 0 0 0 12px;
 		line-height: 1.846em;
-		font-size: 1.083em;
+		font-size: 14px;
 		font-weight: bold;
 		color: #454b44;
 	}
@@ -222,7 +245,7 @@ h6 {
 		width: 206px;
 		padding: 0 16px 0 0;
 		line-height: 1.385em;
-		font-size: 1.083em;
+		font-size: 14px;
 		color: #8e8e8e;
 	}
 	
@@ -249,7 +272,7 @@ h6 {
 	padding: 2px 0 3px 0;
 	overflow: hidden;
 	line-height: 1.538em;
-	font-size: 1.083em;
+	font-size: 14px;
 	color: #8e8e8e;
 }
 
@@ -273,3 +296,16 @@ h6 {
 		.list-6 dd a {
 			color: #89c206;
 		}
+		
+.list-indent {
+	padding: 0 0 29px 2px !important;
+}
+
+.list-indent1 {
+	padding: 0 0 19px 0 !important;
+}
+
+.no-indent {
+	margin: 0 !important;
+	padding: 0 !important;
+}		
