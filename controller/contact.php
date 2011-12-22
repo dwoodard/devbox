@@ -16,7 +16,7 @@
 					 <form action="/sendmail/contactus/" method="post" enctype="multipart/form-data" accept-charset="utf-8" class="form-stacked" id="contactForm">
 						<input type="hidden" name="subject" value="Website Question/Comment">
 						<fieldset>
-							<legend><strong>Contact us</strong></legend>
+							<legend><h2>Send Us Comments or Questions</h2></legend>
 							
 							<div class="message" style="margin: 0 18px 0 0;"><div id="alert"></div></div>
 							
@@ -47,7 +47,7 @@
 						</fieldset>
 
 						<div class="actions">
-							<input type="submit" value="Save Changes &raquo;" class="btn primary"> 
+							<input type="submit" value="Send Message &raquo;" class="btn primary"> 
 						</div>
 					</form>
 		

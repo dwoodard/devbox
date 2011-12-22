@@ -313,7 +313,7 @@ require_once DIR_VIEW . '/devbox/_navigation.php';
 						</script>
 					<?php endif ?>
 
-				  	<h2>Template Listings <small><?php echo '/' . $leadon;?></small></h2>
+				  	<h2>Template Listings</h2>
 
 				  	<div id="breadcrumbs">
 						<!-- <a href="<?php echo strip_tags($_SERVER['PHP_SELF']);?>">home</a>  -->

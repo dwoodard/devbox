@@ -72,8 +72,8 @@
 					<input type="hidden" name="filename" value="<?= $filename ?>">
 
 					<fieldset>
-						<legend><h2>Edit <?= set_default($template->name, "Template") ?> <small><?= set_default($template->page) ?></small></h2></legend>
-						<p><?= set_default($template->description) ?></p>
+						<legend><h2>Edit &raquo; <?= set_default($template->page) ?> &raquo; <?= set_default($template->name, "Template") ?></h2></legend>
+						<h3><small><?= set_default($template->description) ?></small></h3>
 						<div class="clearfix">		
 							<textarea rows="8" cols="40" id="content" name="content">
 								<?php include_once DIR_PAGE . '/inc/' . $filename; ?>
