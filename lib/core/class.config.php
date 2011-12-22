@@ -14,7 +14,7 @@
         // Add your server hostnames to the appropriate arrays. ($_SERVER['HTTP_HOST'])
         // Each array item should be a regular expression. This gives you the option to detect a whole range
         // of server names if needed. Otherwise, you can simply detect a single server like '/^servername\.com$/'
-        private $productionServers = array('/^example\.com$/','/www.example\.com$/');
+        private $productionServers = array('/^weloveallpaws\.com$/','/www.weloveallpaws\.com$/');
         private $stagingServers    = array('/^stage.neveranullmoment\.com$/');
         private $localServers      = array('/^devbox\.dev$/');
 
@@ -124,11 +124,11 @@
 
             $this->dbReadHost      = 'localhost';
             $this->dbWriteHost     = 'localhost';
-            $this->dbName          = '';
-            $this->dbReadUsername  = '';
-            $this->dbWriteUsername = '';
-            $this->dbReadPassword  = '';
-            $this->dbWritePassword = '';
+            $this->dbName          = 'allpaws_simpledb';
+            $this->dbReadUsername  = 'allpaws_mysql';
+            $this->dbWriteUsername = 'allpaws_mysql';
+            $this->dbReadPassword  = 'MwUAFbaKd-9';
+            $this->dbWritePassword = 'MwUAFbaKd-9';
             $this->dbOnError       = 'die';
             $this->dbEmailOnError  = false;
         }

@@ -36,6 +36,7 @@ intermediate
 publish
 .idea
 logs
+error_log
 
 # build script local files
 build/buildinfo.properties
