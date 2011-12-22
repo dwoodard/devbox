@@ -7,6 +7,8 @@
 # Note: If you're having trouble making Apache pickup your .htaccess file,
 # make sure AllowOverride is set to "All" instead of "None".
 
+AddHandler application/x-httpd-php53 .php
+
 RewriteEngine on
 RewriteBase /
 
