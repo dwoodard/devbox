@@ -29,7 +29,7 @@
 			</div>
 			<div class="row">
 				<div class="span-one-third">
-					<a href="/plugins/template/list/">
+					<a href="/template/list/">
 					<img alt="" src="/assets/images/origami/file.png" class="thumbnail floatleft" style="margin: 10px 10px 0 0; width: 55px;">
 					<h3>Easy Templates</h3></a>
 					<p>Easily add pages using your default template or start a new template.</p>

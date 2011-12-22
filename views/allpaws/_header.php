@@ -13,6 +13,7 @@
 				'assets/css/layout',
 				'assets/css/screen',
 				'assets/css/forms',
+				'assets/css/alerts',
 				'assets/css/colorbox',
 				'assets/fonts/geosans',
 			), FALSE, FALSE, TRUE);
