@@ -13,12 +13,12 @@
 		         <div class="wrapper">
 		           <article class="col-1">
 		             
-		             <form action="/plugins/gallery/upload/" method="post" enctype="multipart/form-data" accept-charset="utf-8" class="form-stacked">
-						<input type="hidden" name="action" value="save">
-						<input type="hidden" name="filename" value="<?= $file['fileName'] ?>">
-
+					 <form action="/sendmail/contactus/" method="post" enctype="multipart/form-data" accept-charset="utf-8" class="form-stacked" id="contactForm">
+						<input type="hidden" name="subject" value="Website Question/Comment">
 						<fieldset>
 							<legend><strong>Contact us</strong></legend>
+							
+							<div class="message" style="margin: 0 18px 0 0;"><div id="alert"></div></div>
 							
 							<div class="clearfix">
 								<label>Your Name: </label>
@@ -40,7 +40,7 @@
 							<div class="clearfix">	
 								<label>Your Question or Comment: </label>
 								<div class="input">
-									<textarea rows="3" name="description" class="xxlarge" rel=""></textarea>
+									<textarea rows="3" name="message" class="xlarge validate" rel="required" style="width: 480px;"></textarea>
 								</div>
 							</div>
 
