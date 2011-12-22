@@ -3,11 +3,17 @@
 	require_once DIR_VIEW . '/allpaws/_header.php'; 
 ?>
 
+<div id="homepage-banners">
+	<?php include_once(DIR_PAGE . '/inc/homepage_banners.html') ?>
+
+	<?php include_once(DIR_PAGE . '/inc/header_list.html') ?>
+</div>
+
 <!-- content -->
 <section id="content">
 	<div id="indent">
 		<div class="row-1">
-			<div class="wrapper">
+			<div class="wrapper">				
 				<article class="col-1">
 					<div class="indent-left">
 
@@ -26,7 +32,7 @@
 					<article class="col-2">
 						<div class="info-box">
 							<div class="inner"> <strong>Our services are provided to our clients to help meet all 
-								of their in-home pets care needs.</strong> <b><a href="/contact/">make an appointment</a></b> </div>
+								of their in-home pet care needs.</strong> <b><a href="/contact/">make an appointment</a></b> </div>
 							</div>
 							<div class="indent-left1">
 								<div class="line-ver">

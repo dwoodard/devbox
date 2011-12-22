@@ -312,6 +312,14 @@ var Site = {
 				$('input[name="option[]"][value="' + str + '"]').remove();
 				el.parent('li').remove();
 			});
+			
+			$("a[rel='portfolio']").colorbox();
+			
+			$(".fade").fadeTo(1, 1);
+			$(".fade").hover(
+				function () {$(this).fadeTo("fast", 0.45);},
+				function () { $(this).fadeTo("slow", 1);}
+			);
 		});
 	}
 };

@@ -68,6 +68,7 @@ a {
 
 
 
+
 /* ========================= Global Structure START ============================== */
 
 #main-tail-hor {
@@ -105,15 +106,24 @@ a {
 }
 
 header {
+	/*background: url(/assets/images/allpaws/header.jpg) no-repeat 518px 120px;*/
+	position: relative;
+	width: 978px;
+	height: 123px;
+	margin: 0 auto;
+	z-index: 10;
+}
+
+div#homepage-banners {
 	background: url(/assets/images/allpaws/header.jpg) no-repeat 518px 120px;
 	position: relative;
 	width: 978px;
 	height: 523px;
-	margin: 0 auto;
+	margin: -123px auto 0;
 }
 
 section#content {
-	background: url(/assets/images/allpaws/content.gif) no-repeat 0% 0%;
+	/*background: url(/assets/images/allpaws/content.gif) no-repeat 0% 0%;*/
 	width: 978px;
 	margin: 0 auto;
 }
@@ -1082,3 +1092,24 @@ footer strong {
 	}
 
 /* ============================= footer END ====================================== */
+
+/* @group Custom */
+
+.hover-img-3col {
+    background: url("/assets/images/allpaws/hover-preview.png") no-repeat scroll center center;
+    background-color: transparent;
+    float: left;
+    width: 210px;
+    height: 150px;
+    margin: 10px;
+}
+
+.hover-img-3col a {
+	background-color: transparent !important;
+    color: #FFFFFF;
+    outline: none;
+    padding: 1px 2px;
+    text-decoration: none;
+}
+
+/* @end */

@@ -18,6 +18,7 @@
 		(
 			'assets/css/reset',
 			'assets/css/bootstrap',
+			'assets/css/attention_box',
 			'assets/css/devbox',
 			'assets/css/plupload',
 			'assets/css/rangeslider', 
@@ -29,6 +30,7 @@
 		(
 		    'assets/js/jquery-1.6.2.min',
 			'assets/js/jquery-ui-1.8.10.custom.min',
+			'assets/js/jquery.attention_box.min',
 			'assets/js/jquery.bt',
 			'assets/js/jquery.colorbox', 
 			'assets/js/jquery.form',

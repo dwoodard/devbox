@@ -1,71 +1,83 @@
 <?php defined('LIBRARY') or die('No direct script access allowed');
-
-	require_once DIR_VIEW . '/mimino/_header.php'; 
+	
+	$pageid = 'page2';
+	require_once DIR_VIEW . '/allpaws/_header.php'; 
 ?>
 
-<div class="major-holder">
-	<div class="major-area">
-		<div class="major-frame">
-			<!-- main -->
-			<div id="main">
-				<!-- page heading -->
-				<div class="page-heading">
-					<!-- navigation -->
-					<h4>Contact Us</h4>
-				</div>
-				<div class="main-holder">
-					<!-- content -->
-					<section id="content">
-						<!-- post -->
-						<section class="post">
-							<!-- form comment -->
-							<div id="message-note"></div>
-							<form class="form-comment" method="POST" id="contactForm">
-								<fieldset>
-									<legend class="hidden">Comment form</legend>
-									<div class="row">
-										<label for="name">Name *</label>
-										<div class="text"><input id="name" name="name" type="text" value=""></div>
-									</div>
-									<div class="row">
-										<label for="email">E-mail * (Will not be published)</label>
-										<div class="text"><input id="email" name="email" type="text"></div>
-									</div>
-									<div class="row">
-										<label for="subject">Subject</label>
-										<div class="text"><input id="subject" name="subject" type="text"></div>
-									</div>
-									<div class="row">
-										<div class="textarea">
-											<textarea id="message" name="message" cols="80" rows="4" title="comment"></textarea>
-										</div>
-									</div>
-									<div class="row">
-										<input class="submit" type="submit" name="submit" id="submit" value="SUBMIT">
-									</div>
-								</fieldset>
-							</form>							
-						</section>
-					</section>
-					<!-- sidebar -->
-					<aside id="sidebar">										
-						<!-- side box -->
-						<section class="side-box">
-							<h6>Contact Details</h6>
-							<!-- project box -->
-							<div class="project-side">
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eius mod tempor incididunt ut lab ore et dolore magna aliqua.</p>
-								<ul class="contact_list">
-									<li class="home">344 Madison Avenue <br> New York 10027</li>
-									<li class="phone">Tel: +1 416 777 8000</li>
-									<li class="fax">Fax: +1 416 777 8002</li>
-									<li class="mail"><a href="mailto:info@companyname.com">info@companyname.com</a></li>
-									<li class="help"><a href="mailto:support@companyname.com">support@companyname.com</a></li>
-								</ul>
+
+		<!-- content -->
+		 <section id="content">
+		   <div id="indent-1">
+		     <div class="row-1">
+		       <div class="line-ver">
+		         <div class="wrapper">
+		           <article class="col-1">
+		             
+		             <form action="/plugins/gallery/upload/" method="post" enctype="multipart/form-data" accept-charset="utf-8" class="form-stacked">
+						<input type="hidden" name="action" value="save">
+						<input type="hidden" name="filename" value="<?= $file['fileName'] ?>">
+
+						<fieldset>
+							<legend><strong>Contact us</strong></legend>
+							
+							<div class="clearfix">
+								<label>Your Name: </label>
+								<div class="input">
+									<input type="text" name="name" class="xlarge validate" rel="required">
+								</div>
 							</div>
-						</section>
-					</aside>
-				</div>
-			</div>
-			
-<?php require_once DIR_VIEW . '/mimino/_footer.php'; ?>
+							
+							<div class="clearfix">
+								<label>Your Email: </label>
+								<div class="input">
+									<input type="text" name="email" class="xlarge validate" rel="required">
+									<span class="help-block">
+										Please include a valid email address.
+									</span>
+								</div>
+							</div>
+							
+							<div class="clearfix">	
+								<label>Your Question or Comment: </label>
+								<div class="input">
+									<textarea rows="3" name="description" class="xxlarge" rel=""></textarea>
+								</div>
+							</div>
+
+						</fieldset>
+
+						<div class="actions">
+							<input type="submit" value="Save Changes &raquo;" class="btn primary"> 
+						</div>
+					</form>
+		
+		             <div class="clear"></div>
+		           </article>
+		           <article class="col-2">
+		             <?php include_once DIR_PAGE . '/inc/testimonial_1.html'; ?>
+		             
+		             <div class="clear"></div>
+		           </article>
+		         </div>
+		       </div>
+		     </div>
+		   </div>
+		 </section>
+		 <!-- secondary-content -->
+		 <div id="aside-tail-hor">
+		   <div id="aside-bg">
+		     <aside>
+		       <div class="indent-1">
+		         <div class="wrapper">
+		           <h2>The Best  You Can Find On Web!</h2>
+		           <img src="/assets/images/allpaws/2page-img3.jpg" class="fleft" alt="" />
+		           <h6><span><a href="#">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</a></span></h6>
+		           <p>Nulla dui. Fusce feugiat malesuada odio. Morbi nunc odio, gravida at, cursus nec, luctus a, lorem. Maecen as tristique orci ac sem. Duis ultricies pharetra magna. Donec accumsan malesuada orci. Donec sit amet eros. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. </p>
+		           <div class="clear"></div>
+		         </div>
+		       </div>
+		     </aside>
+		   </div>
+		 </div>
+
+<?php require_once DIR_VIEW . '/allpaws/_footer.php'; ?>

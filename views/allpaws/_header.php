@@ -12,12 +12,14 @@
 				'assets/css/reset',
 				'assets/css/layout',
 				'assets/css/screen',
+				'assets/css/forms',
+				'assets/css/colorbox',
 				'assets/fonts/geosans',
 			), FALSE, FALSE, TRUE);
 
 			echo HTML::script(array
 			(
-				'assets/js/jquery-1.6.2.min',
+				'assets/js/jquery-1.4.1.min',
 				'assets/js/jquery.bt',
 				'assets/js/jquery.colorbox', 
 				'assets/js/jquery.form',
@@ -66,14 +68,12 @@
 							<h1><a href="/"><span>PetCenter</span></a></h1>
 							<nav>
 								<ul>
-									<li class="act"><a href="/">main</a></li>
-									<li><a href="/about/">about us</a></li>
-									<li><a href="/services/">services</a></li>
-									<li><a href="/gallery/">gallery</a></li>
-									<li><a href="/contact/">contact us</a></li>
+									<li class="<?= $str = ($requestURI[1] == '') ? 'act': NULL; ?>"><a href="/">main</a></li>
+									<li class="<?= $str = ($requestURI[1] == 'about') ? 'act': NULL; ?>"><a href="/about/">about us</a></li>
+									<li class="<?= $str = ($requestURI[1] == 'services') ? 'act': NULL; ?>"><a href="/services/">services</a></li>
+									<li class="<?= $str = ($requestURI[1] == 'gallery') ? 'act': NULL; ?>"><a href="/gallery/">gallery</a></li>
+									<li class="<?= $str = ($requestURI[1] == 'contact') ? 'act': NULL; ?>"><a href="/contact/">contact us</a></li>
 								</ul>
 							</nav>
-							<?php include_once(DIR_PAGE . '/inc/homepage_banners.html') ?>
-
-							<?php include_once(DIR_PAGE . '/inc/header_list.html') ?>
+							
 						</header>
