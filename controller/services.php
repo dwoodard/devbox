@@ -7,7 +7,7 @@
 		<!-- content -->
         <section id="content">
           <div id="indent-2">
-            <h2>Our Services</h2>
+            <h4>Our Fancy Services Tagline Goes Here</h4>
 			
 			<?php include_once DIR_PAGE . '/inc/service_list.html'; ?>
             

@@ -481,6 +481,15 @@ h2 {
 		font-weight: normal;
 	}
 
+h4 {
+	padding: 0 0 18px 0;
+	line-height: 1em;
+	font-size: 48px;
+	font-weight: 200;
+	color: #2c2c2c;
+	text-align: center;
+}
+
 h5 {
 	padding: 0 0 18px 0;
 	line-height: 1.385em;
@@ -975,11 +984,19 @@ h6 {
 		.list-5 li img {
 			margin: 0 0 18px 0;
 		}
-	
+		
+		.list-5 li em {
+			font-weight: 800;
+			color: #000000;
+		}
+		
 		.list-5 li strong {
 			display: block;
 			font-weight: normal;
-			color: #000;
+			font-size: 28px;
+			color: #000000;
+			text-align: center;
+			padding-bottom: 10px;
 		}
 		
 			.list-5 li strong a {

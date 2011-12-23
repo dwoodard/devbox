@@ -32,7 +32,7 @@
 					<article class="col-2">
 						<div class="info-box">
 							<div class="inner"> <strong>Our services are provided to our clients to help meet all 
-								of their in-home pet care needs.</strong> <b><a href="/contact/">make an appointment</a></b> </div>
+								of their in-home pet care needs.</strong> <b><a href="/contact/" style="white-space: nowrap;">setup a free consultation</a></b> </div>
 							</div>
 							<div class="indent-left1">
 								<div class="line-ver">
@@ -65,23 +65,29 @@
 							<div class="line-ver-1">
 								<div class="wrapper">
 									<article class="col-1">
-										<h2><i>Useful Info</i></h2>
 										<div class="wrapper">
 
 											<div class="block-1">
+												<h2>Useful Info</h2>
 												<ul class="list-2">
-													<li><a href="#">Stem Cell Therapy</a></li>
-													<li><a href="#">Quality Pet Care Services</a></li>
+													<li><a href="#">Top 5 Dog Health Problems</a></li>
+													<li><a href="#">A Guide To Choosing a Puppy</a></li>
 													<li><a href="#">Did you know?</a></li>
 												</ul>
 											</div>
 											<div class="block-2">
+												<h2>Sitemap</h2>
 												<ul class="list-2">
-													<li><a href="#">On-line contacts</a></li>
-													<li><a href="#">FAQs</a></li>
+													<li><a href="/about/">About Us</a></li>
+													<li><a href="/services/">Our Services</a></li>
+													<li><a href="/services/">Gallery</a></li>
+													<li><a href="/services/">Who Is Charlie?</a></li>
+													<li><a href="/services/">Pet of the Month</a></li>
+													<li><a href="/services/">Contact Us</a></li>
 												</ul>
 											</div>
 											<div class="block-3">
+												<img src="/assets/images/icons/social/facebook_32.png"> Friend us on Facebook!
 												<ul class="list-2">
 													<li><a href="#">Behavior Consultations</a></li>
 													<li><a href="#">Hot news</a></li>
@@ -90,7 +96,7 @@
 										</div>
 									</article>
 									<article class="col-2">
-										<h2><i>Newsletter Sign Up</i></h2>
+										<h2><i>Sign Up for Our Monthly Newsletter</i></h2>
 										<form action="" id="subscribe-form">
 											<div class="wrapper"> <strong>Enter Your E-Mail</strong>
 												<label>
