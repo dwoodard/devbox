@@ -13,7 +13,7 @@
 		else if($Auth->createNewUser($_POST['username'], $_POST['password']))
 		{
 			$Auth->login($_POST['username'], $_POST['password']);
-			redirect('/new.php');
+			redirect('/dashboard');
 		}
 		else
 			$Error->add('username', "We're sorry, that username already exists. Please try again.");
@@ -44,7 +44,7 @@
 								<div class="page-header">
 									<h4>Create a new account</h4>
 								</div>
-								<form action="<?= $_SERVER['PHP_SELF']; ?>" method="post" class="form-stacked" style="margin-left: -20px;"> 
+								<form action="/acct/" method="post" class="form-stacked" style="margin-left: -20px;"> 
 									<div class="clearfix">
 										<label for="focus">Choose a username:</label> 
 										<input type="text" name="username" value="<?= set_default($_POST['username']) ?>" id="focus" />
