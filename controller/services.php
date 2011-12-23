@@ -7,7 +7,7 @@
 		<!-- content -->
         <section id="content">
           <div id="indent-2">
-            <h4>Our Fancy Services Tagline Goes Here</h4>
+            <h4>Helping Your Pets Heal at Home</h4>
 			
 			<?php include_once DIR_PAGE . '/inc/service_list.html'; ?>
             
@@ -32,21 +32,5 @@
           </div>
         </section>
 
-        <!-- secondary-content -->
-        <div id="aside-tail-hor">
-          <div id="aside-bg">
-            <aside>
-              <div class="indent-3">
-                <div class="wrapper">
-                  	<h2>The Best  You Can Find On Web!</h2>
-			           <img src="/assets/images/allpaws/2page-img3.jpg" class="fleft" alt="" />
-			           <h6><span><a href="#">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</a></span></h6>
-			           <p>Nulla dui. Fusce feugiat malesuada odio. Morbi nunc odio, gravida at, cursus nec, luctus a, lorem. Maecen as tristique orci ac sem. Duis ultricies pharetra magna. Donec accumsan malesuada orci. Donec sit amet eros. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. </p>
-			           <div class="clearboth"></div>
-                </div>
-              </div>
-            </aside>
-          </div>
-        </div>
-
+        
 <?php require_once DIR_VIEW . '/allpaws/_footer.php'; ?>

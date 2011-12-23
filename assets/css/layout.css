@@ -21,6 +21,11 @@
 #page2 .row-1 .col-1 {width: 535px; padding: 0 44px 0 0;}
 #page2 .row-1 .col-2 {width: 251px; padding: 0 0 0 42px;}
 
+#page2 .row-2 .col-1 .block-1 {width: 204px; padding: 0 10px 0 0;}
+#page2 .row-2 .col-1 .block-2 {width: 153px; padding: 0 10px 0 0;}
+#page2 .row-2 .col-1 .block-3 {width: 242px;}
+
+
 /*======= index-2.html =======*/
 
 #page3 .row-1 .line-ver {background-position: 298px 0%;}
