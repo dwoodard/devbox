@@ -1,7 +1,7 @@
 <?php defined('LIBRARY') or die('No direct script access allowed');
 
-    $apikey = 'f7e1fc013b75e1a110fa03d42d1f5162-us2';
-    $listID = 'c6458cce9a';
+    $apikey = 'bd959ac315dc0e7bee24f32e3d27e317-us4';
+    $listID = '0a2818187b';
 	
     if (isset($_POST['subscribe'])) :
 		if (preg_match("(\w[-._\w]*\w@\w[-._\w]*\w\.\w{2,})", $_POST['email'])) :

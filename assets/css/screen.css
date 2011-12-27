@@ -853,7 +853,7 @@ h6 {
 		background: url(/assets/images/allpaws/marker.gif) no-repeat 0% 9px;
 		padding: 0 0 0 13px;
 		line-height: 1.538em;
-		font-size: 14px;
+		font-size: 20px;
 		/*color: #319ea8;*/
 	}
 	
@@ -868,10 +868,10 @@ h6 {
 }
 
 	.list-1 li {
-		background: url(/assets/images/allpaws/marker-1.gif) no-repeat 0% 11px;
-		padding: 0 0 0 14px;
-		line-height: 2em;
-		font-size: 14px;
+		/*background: url(/assets/images/allpaws/marker-1.gif) no-repeat 0% 11px;*/
+		padding: 0 0 12px 0px;
+		line-height: 1em;
+		font-size: 18px;
 		color: #89c206;
 	}
 	

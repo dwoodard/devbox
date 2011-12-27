@@ -71,6 +71,10 @@ form#contactForm .uneditable-input {
   -moz-border-radius: 3px;
   border-radius: 3px;
 }
+form#contactForm .btn {
+	width: auto;
+	height: auto;
+}
 /* mini reset for non-html5 file types */
 form#contactForm input[type=checkbox], form#contactForm input[type=radio] {
   width: auto;
@@ -92,10 +96,10 @@ form#contactForm input[type=file] {
   -moz-box-shadow: none;
   box-shadow: none;
 }
-form#contactForm input[type=button], input[type=reset], input[type=submit] {
+/*form#contactForm input[type=button], input[type=reset], input[type=submit] {
   width: auto;
   height: auto;
-}
+}*/
 form#contactForm select, input[type=file] {
   height: 27px;
   line-height: 27px;
@@ -170,16 +174,16 @@ form#contactForm .help-block {
   max-width: 600px;
 }
 
-form#contactForm .form-stacked {
+form#contactForm.form-stacked {
   padding-left: 20px;
 }
-form#contactForm .form-stacked fieldset {
+form#contactForm.form-stacked fieldset {
   padding-top: 9px;
 }
-form#contactForm .form-stacked legend {
+form#contactForm.form-stacked legend {
   padding-left: 0;
 }
-form#contactForm .form-stacked label {
+form#contactForm.form-stacked label {
   display: block;
   float: none;
   width: auto;
@@ -188,30 +192,30 @@ form#contactForm .form-stacked label {
   line-height: 20px;
   padding-top: 0;
 }
-form#contactForm .form-stacked .clearfix {
+form#contactForm.form-stacked .clearfix {
   margin-bottom: 9px;
 }
-form#contactForm .form-stacked .clearfix div.input {
+form#contactForm.form-stacked .clearfix div.input {
   margin-left: 0;
 }
-form#contactForm .form-stacked .inputs-list {
+form#contactForm.form-stacked .inputs-list {
   margin-bottom: 0;
 }
-form#contactForm .form-stacked .inputs-list li {
+form#contactForm.form-stacked .inputs-list li {
   padding-top: 0;
 }
-form#contactForm .form-stacked .inputs-list li label {
+form#contactForm.form-stacked .inputs-list li label {
   font-weight: normal;
   padding-top: 0;
 }
-form#contactForm .form-stacked div.clearfix.error {
+form#contactForm.form-stacked div.clearfix.error {
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 10px;
   margin-top: 0;
   margin-left: -10px;
 }
-form#contactForm .form-stacked .actions {
+form#contactForm.form-stacked .actions {
   margin-left: -20px;
   padding-left: 20px;
 }
