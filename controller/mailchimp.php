@@ -73,8 +73,8 @@
 		<div class="container_16" id="mainContainer" role="main">
 			<div class="formPanel">
 				<a name="top" id="top"></a>
-				<form action="/users" id="signUpForm" method="post" name="signUpForm">
-					<input id="return_to" name="return_to" type="hidden">
+				<form action="/mailchimp" id="signUpForm" method="post" name="signUpForm">
+					<input id="return_to" name="subscribe" type="hidden">
 					<h5 class="errorTitle"></h5>
 					<div class="fieldGroup">
 						<label class="title">Email <span>We will send your videos to this address.</span></label>

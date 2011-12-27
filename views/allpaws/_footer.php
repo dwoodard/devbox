@@ -39,11 +39,14 @@
 									</div>
 								</article>
 								<article class="col-2">
-									<h2><i>Sign Up for </i></h2>
+									<h2 style="width: 240px;">Sign Up for Our Monthly Newsletter</h2>
+									
 									<form action="" id="subscribe-form">
-										<div class="wrapper"> <strong>Enter Your E-Mail</strong>
+										<div class="wrapper"> 
+											<strong><small>We will never share your information</small></strong>
+											
 											<label>
-												<input type="text" value="Name" onBlur="if(this.value=='') this.value='Name'" onFocus="if(this.value =='Name' ) this.value=''" />
+												<input type="text" value="Enter Your Email" onBlur="if(this.value=='') this.value='Name'" onFocus="if(this.value =='Enter Your Email' ) this.value=''" />
 											</label>
 											<a href="#" onClick="document.getElementById('subscribe-form').submit()">Subscribe</a> </div>
 										</form>

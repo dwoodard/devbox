@@ -1130,4 +1130,9 @@ footer strong {
     text-decoration: none;
 }
 
+.hover-img-3col, .hover-img-3col img {
+	width: 155px;
+	height: 111px;
+}
+
 /* @end */

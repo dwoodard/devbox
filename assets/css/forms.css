@@ -1,11 +1,11 @@
 form#contactForm {
   margin-bottom: 18px;
 }
-fieldset {
+form#contactForm fieldset {
   margin-bottom: 18px;
   padding-top: 18px;
 }
-fieldset legend {
+form#contactForm fieldset legend {
   display: block;
   padding-left: 150px;
   font-size: 19.5px;
@@ -18,29 +18,29 @@ fieldset legend {
   /* IE6-7 */
 
 }
-form .clearfix {
+form#contactForm  .clearfix {
   margin-bottom: 18px;
   zoom: 1;
 }
-form .clearfix:before, form .clearfix:after {
+form#contactForm .clearfix:before, form#contactForm .clearfix:after {
   display: table;
   content: "";
   zoom: 1;
   *display: inline;
 }
-form .clearfix:after {
+form#contactForm .clearfix:after {
   clear: both;
 }
-label,
-input,
-select,
-textarea {
+form#contactForm label,
+form#contactForm input,
+form#contactForm select,
+form#contactForm textarea {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 13px;
   font-weight: normal;
   line-height: normal;
 }
-label {
+form#contactForm label {
   padding-top: 6px;
   font-size: 13px;
   line-height: 18px;
@@ -49,16 +49,16 @@ label {
   text-align: right;
   color: #404040;
 }
-form .input {
+form#contactForm form .input {
   margin-left: 150px;
 }
-input[type=checkbox], input[type=radio] {
+form#contactForm input[type=checkbox], form#contactForm input[type=radio] {
   cursor: pointer;
 }
-input,
-textarea,
-select,
-.uneditable-input {
+form#contactForm input,
+form#contactForm textarea,
+form#contactForm select,
+form#contactForm .uneditable-input {
   display: inline-block;
   width: 210px;
   height: 18px;
@@ -72,7 +72,7 @@ select,
   border-radius: 3px;
 }
 /* mini reset for non-html5 file types */
-input[type=checkbox], input[type=radio] {
+form#contactForm input[type=checkbox], form#contactForm input[type=radio] {
   width: auto;
   height: auto;
   padding: 0;
@@ -83,7 +83,7 @@ input[type=checkbox], input[type=radio] {
   line-height: normal;
   border: none;
 }
-input[type=file] {
+form#contactForm input[type=file] {
   background-color: #ffffff;
   padding: initial;
   border: initial;
@@ -92,24 +92,24 @@ input[type=file] {
   -moz-box-shadow: none;
   box-shadow: none;
 }
-input[type=button], input[type=reset], input[type=submit] {
+form#contactForm input[type=button], input[type=reset], input[type=submit] {
   width: auto;
   height: auto;
 }
-select, input[type=file] {
+form#contactForm select, input[type=file] {
   height: 27px;
   line-height: 27px;
   *margin-top: 4px;
   /* For IE7, add top margin to align select with labels */
 
 }
-select[multiple] {
+form#contactForm select[multiple] {
   height: inherit;
 }
-textarea {
+form#contactForm textarea {
   height: auto;
 }
-.uneditable-input {
+form#contactForm .uneditable-input {
   background-color: #ffffff;
   display: block;
   border-color: #eee;
@@ -124,7 +124,7 @@ textarea {
 ::-webkit-input-placeholder {
   color: #bfbfbf;
 }
-input, textarea {
+form#contactForm input, form#contactForm textarea {
   -webkit-transition: border linear 0.2s, box-shadow linear 0.2s;
   -moz-transition: border linear 0.2s, box-shadow linear 0.2s;
   -ms-transition: border linear 0.2s, box-shadow linear 0.2s;
@@ -134,26 +134,29 @@ input, textarea {
   -moz-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
   box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
 }
-input:focus, textarea:focus {
+form#contactForm input:focus, form#contactForm textarea:focus {
   outline: 0;
   border-color: rgba(82, 168, 236, 0.8);
   -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1), 0 0 8px rgba(82, 168, 236, 0.6);
   -moz-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1), 0 0 8px rgba(82, 168, 236, 0.6);
   box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1), 0 0 8px rgba(82, 168, 236, 0.6);
 }
-input[type=file]:focus, input[type=checkbox]:focus, select:focus {
+form#contactForm input[type=file]:focus, 
+form#contactForm input[type=checkbox]:focus, 
+form#contactForm select:focus {
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none;
   outline: 1px dotted #666;
 }
 
-.help-inline, .help-block {
+form#contactForm .help-inline, 
+form#contactForm .help-block {
   font-size: 11px;
   line-height: 18px;
   color: #bfbfbf;
 }
-.help-inline {
+form#contactForm .help-inline {
   padding-left: 5px;
   *position: relative;
   /* IE6-7 */
@@ -162,21 +165,21 @@ input[type=file]:focus, input[type=checkbox]:focus, select:focus {
   /* IE6-7 */
 
 }
-.help-block {
+form#contactForm .help-block {
   display: block;
   max-width: 600px;
 }
 
-.form-stacked {
+form#contactForm .form-stacked {
   padding-left: 20px;
 }
-.form-stacked fieldset {
+form#contactForm .form-stacked fieldset {
   padding-top: 9px;
 }
-.form-stacked legend {
+form#contactForm .form-stacked legend {
   padding-left: 0;
 }
-.form-stacked label {
+form#contactForm .form-stacked label {
   display: block;
   float: none;
   width: auto;
@@ -185,71 +188,71 @@ input[type=file]:focus, input[type=checkbox]:focus, select:focus {
   line-height: 20px;
   padding-top: 0;
 }
-.form-stacked .clearfix {
+form#contactForm .form-stacked .clearfix {
   margin-bottom: 9px;
 }
-.form-stacked .clearfix div.input {
+form#contactForm .form-stacked .clearfix div.input {
   margin-left: 0;
 }
-.form-stacked .inputs-list {
+form#contactForm .form-stacked .inputs-list {
   margin-bottom: 0;
 }
-.form-stacked .inputs-list li {
+form#contactForm .form-stacked .inputs-list li {
   padding-top: 0;
 }
-.form-stacked .inputs-list li label {
+form#contactForm .form-stacked .inputs-list li label {
   font-weight: normal;
   padding-top: 0;
 }
-.form-stacked div.clearfix.error {
+form#contactForm .form-stacked div.clearfix.error {
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 10px;
   margin-top: 0;
   margin-left: -10px;
 }
-.form-stacked .actions {
+form#contactForm .form-stacked .actions {
   margin-left: -20px;
   padding-left: 20px;
 }
 
-.input-mini,
-input.mini,
-textarea.mini,
-select.mini {
+form#contactForm .input-mini,
+form#contactForm input.mini,
+form#contactForm textarea.mini,
+form#contactForm select.mini {
   width: 60px;
 }
-.input-small,
-input.small,
-textarea.small,
-select.small {
+form#contactForm .input-small,
+form#contactForm input.small,
+form#contactForm textarea.small,
+form#contactForm select.small {
   width: 90px;
 }
-.input-medium,
-input.medium,
-textarea.medium,
-select.medium {
+form#contactForm .input-medium,
+form#contactForm input.medium,
+form#contactForm textarea.medium,
+form#contactForm select.medium {
   width: 150px;
 }
-.input-large,
-input.large,
-textarea.large,
-select.large {
+form#contactForm .input-large,
+form#contactForm input.large,
+form#contactForm textarea.large,
+form#contactForm select.large {
   width: 210px;
 }
-.input-xlarge,
-input.xlarge,
-textarea.xlarge,
-select.xlarge {
+form#contactForm .input-xlarge,
+form#contactForm input.xlarge,
+form#contactForm textarea.xlarge,
+form#contactForm select.xlarge {
   width: 270px;
 }
-.input-xxlarge,
-input.xxlarge,
-textarea.xxlarge,
-select.xxlarge {
+form#contactForm .input-xxlarge,
+form#contactForm input.xxlarge,
+form#contactForm textarea.xxlarge,
+form#contactForm select.xxlarge {
   width: 530px;
 }
-textarea.xxlarge {
+form#contactForm textarea.xxlarge {
   overflow-y: auto;
 }
 
