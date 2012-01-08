@@ -83,7 +83,7 @@ $(document).ready(function() {
 	$("#gallery1").jCarouselLite({
 		btnNext: ".next",
 		btnPrev: ".prev",
-		visible: 10,
+		visible: 9,
 		speed: 400,
 		easing: 'easeOutCirc'
 	});

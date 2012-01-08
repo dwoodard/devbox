@@ -153,7 +153,10 @@ jQuery.fn.open_colorbox = function() {
 			onComplete		: function() {
 				$(this).parents().find('form .hint').simplehints();
 				$('#contactForm').sendmail();
-				$('.lightbox').open_colorbox();
+				$('.lightbox').live('click', function(){
+					$(this).open_colorbox();
+				  	return false;
+				});
 				$.fn.colorbox.resize();
 			}
 		});	
@@ -302,7 +305,12 @@ var Site = {
 			$('#focus').focus();
 			$('#contactForm').sendmail();
 			$('.tooltip').bt();
-			$('.lightbox').open_colorbox();
+			// $('.lightbox').open_colorbox();
+			
+			$('.lightbox').live('click', function(){
+				$(this).open_colorbox();
+			  	return false;
+			});
 			
 			// Surv.ly functions
 			$(document).bind("a.removeOption", "click", function(e){ 

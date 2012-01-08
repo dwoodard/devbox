@@ -15,7 +15,7 @@
 				<div id="gallery1">
 					<ul>
 						<li><a class="lightbox" href="/assets/images/insomniac/portfolio/atech.jpg" ><img src="/assets/images/insomniac/img1.png" alt="" width="340" height="201"><img src="/assets/images/insomniac/img1_active.jpg" alt="" width="340" height="201" class="img_act"></a></li>
-						<li><a class="lightbox" href="/assets/images/insomniac/portfolio/allpaws.jpg" ><img src="/assets/images/insomniac/img2.png" alt="" width="340" height="201"><img src="/assets/images/insomniac/img2_active.jpg" alt="" width="340" height="201" class="img_act"></a></li>
+						<!-- <li><a class="lightbox" href="/assets/images/insomniac/portfolio/allpaws.jpg" ><img src="/assets/images/insomniac/img2.png" alt="" width="340" height="201"><img src="/assets/images/insomniac/img2_active.jpg" alt="" width="340" height="201" class="img_act"></a></li> -->
 						<li><a class="lightbox" href="/assets/images/insomniac/portfolio/thinagain.jpg" ><img src="/assets/images/insomniac/img3.png" alt="" width="340" height="201"><img src="/assets/images/insomniac/img3_active.jpg" alt="" width="340" height="201" class="img_act"></a></li>
 						<li><a class="lightbox" href="/assets/images/insomniac/portfolio/medrecpt.jpg" ><img src="/assets/images/insomniac/img4.png" alt="" width="340" height="201"><img src="/assets/images/insomniac/img4_active.jpg" alt="" width="340" height="201" class="img_act"></a></li>
 						<li><a class="lightbox" href="/assets/images/insomniac/portfolio/comcapp.jpg" ><img src="/assets/images/insomniac/img5.png" alt="" width="340" height="201"><img src="/assets/images/insomniac/img5_active.jpg" alt="" width="340" height="201" class="img_act"></a></li>
