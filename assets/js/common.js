@@ -289,7 +289,7 @@ var Site = {
 	        });
 			
 			var changeMailTo = function(){
-				var mArr = ["@","neverslee","patrick",".ps"];
+				var mArr = ["@","ins0mniac","patrick",".com"];
 				$("#email").attr("href","mailto:"+mArr[2]+mArr[0]+mArr[1]+mArr[3]);
 			}
 					
