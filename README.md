@@ -11,7 +11,7 @@ Features
 * Plug and Play any website template
 * Easily create "template blocks"
 * Fully automated "Pretty URLs"
-* Textile and Markdown support
+* Markdown support
 * FAQ controller
 * Testimonial controller
 * Photo Gallery controller
@@ -62,7 +62,7 @@ Setting Up a Dynamic Web Page
 -------------
 coming soon
 
-Setting Up a Textile or Markdown Template
+Setting Up a Markdown Template
 -------------
 coming soon
 
