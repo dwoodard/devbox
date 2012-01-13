@@ -1,6 +1,6 @@
 #Privacy Policy
 
-This Privacy Policy governs the manner in which neversleeps llc collects, uses, maintains and discloses information collected from users (each, a "User") of the neverslee.ps website ("Site"). This privacy policy applies to the Site and all products and services offered by neversleeps llc.
+This Privacy Policy governs the manner in which allpaws llc collects, uses, maintains and discloses information collected from users (each, a "User") of the neverslee.ps website ("Site"). This privacy policy applies to the Site and all products and services offered by allpaws llc.
 
 ###Personal identification information
 
@@ -37,7 +37,7 @@ Users may find advertising or other content on our Site that link to the sites a
 
 ###Changes to this privacy policy
 
-neversleeps llc has the discretion to update this privacy policy at any time. When we do, we will revise the updated date at the bottom of this page. We encourage Users to frequently check this page for any changes to stay informed about how we are helping to protect the personal information we collect. You acknowledge and agree that it is your responsibility to review this privacy policy periodically and become aware of modifications.
+allpaws llc has the discretion to update this privacy policy at any time. When we do, we will revise the updated date at the bottom of this page. We encourage Users to frequently check this page for any changes to stay informed about how we are helping to protect the personal information we collect. You acknowledge and agree that it is your responsibility to review this privacy policy periodically and become aware of modifications.
 
 ###Your acceptance of these terms
 
@@ -46,9 +46,8 @@ By using this Site, you signify your acceptance of this policy. If you do not ag
 ###Contacting us
 
 If you have any questions about this Privacy Policy, the practices of this site, or your dealings with this site, please contact us at:
-> neversleeps llc
-> neverslee.ps
-> 972-499-4935
-> hello@neverslee.ps
+> allpaws llc
+> weloveallpaws.com
+> janie@weloveallpaws.com
 
-This document was last updated on December 01, 2011
+This document was last updated on January 13, 2011
