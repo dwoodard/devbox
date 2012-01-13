@@ -12,9 +12,9 @@
 										<div class="block-1">
 											<h2>Useful Info</h2>
 											<ul class="list-2">
-												<li><a href="#">Top 5 Dog Health Problems</a></li>
-												<li><a href="#">A Guide To Choosing a Puppy</a></li>
-												<li><a href="#">Did you know?</a></li>
+												<li><a href="/top-5-dog-health-problems/">Top 5 Dog Health Problems</a></li>
+												<li><a href="/choosing-a-puppy/">A Guide To Choosing a Puppy</a></li>
+												<li><a href="/breeds-safe-for-children/">Dog Breeds Safe for Children</a></li>
 											</ul>
 										</div>
 										<div class="block-2">
@@ -22,10 +22,10 @@
 											<ul class="list-2">
 												<li><a href="/about/">About Us</a></li>
 												<li><a href="/services/">Our Services</a></li>
-												<li><a href="/services/">Gallery</a></li>
-												<li><a href="/services/">Who Is Charlie?</a></li>
-												<li><a href="/services/">Pet of the Month</a></li>
-												<li><a href="/services/">Contact Us</a></li>
+												<li><a href="/gallery/">Gallery</a></li>
+												<li><a href="/charlie/">Who Is Charlie?</a></li>
+												<li><a href="/thismonth/">Pet of the Month</a></li>
+												<li><a href="/contact/">Contact Us</a></li>
 											</ul>
 										</div>
 										<div class="block-3">

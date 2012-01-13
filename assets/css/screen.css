@@ -1136,3 +1136,17 @@ footer strong {
 }
 
 /* @end */
+
+
+/* @group Custom Group */
+
+#content .col-1 ul {
+	padding-left: 15px;
+}
+#content .col-1 ul li {
+	list-style-position: outside;
+	list-style-type: disc;
+	padding-bottom: 10px;
+}
+
+/* @end */
